@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+   
+header {
+    background-attachment: beige;
+    padding : 1 rem;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    flex: 2;
+}
+
+main aside {
+    background-color: pink;
+    flex: 1;
+}
+
+main nav {
+    background-color: aqua;
+    flex: 1;
+    order: 3;
+}
+
+footer {
+    background-color: beige;
+}
